@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(248, 229, 229);
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(24, 24, 24);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #007bff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 5px solid #007bff;  /* creates padding around scroll thumb */
+  }
+
+.navbar-brand h1{
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+.nav-link h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #2b1c1c;
+}
+footer{
+    margin-top: 4%;
+    background-color: #007bff;
+    padding: 30px;
+}
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 27px ;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+  
+  .carousel-image {
+    height: 900px; 
+  }
+  h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+  }
+  .card-deck{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+    .card{
+        box-shadow: 4px 2px 0px 0px rgba(0, 0, 0, 0.1); 
+        transition: 0.9s;
+    }
+    .card:hover{
+        border: 1.5px solid black;
+        transform: scale(1.1);
+        box-shadow: 6px 4px 0px 0px rgba(0, 0, 0, 0.3); 
+    }
+  .h7{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 27px ;
+    color: black;
+    margin-top: 2%;
+    
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.carouselExampleControls{
+    margin-top: 20%;
+}
+.sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5.2%;
+    text-align: center;
+    font-size: 48px;
+    color: black;
+}
+.sobre p{
+    text-align: justify;
+}
+.text-a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22px;
+    background-color: rgba(48, 46, 46, 0.1);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    border: 8px solid black;
+    border-radius: 5px;
+}
+.page-text {
+    display: flex;
+    max-width: 100%;
+    z-index: 1;
+    background-color: white;
+
+}
+.text{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+.text h2{
+    font-size: 40px;
+    color: orange;
+}
+.img-thumbnail{
+    height: 65px;
+    width: 100px;
+}
